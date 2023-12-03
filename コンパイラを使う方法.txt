@@ -1,0 +1,9 @@
+コンパイラを使う方法
+
+watchモード
+tsc index.ts --watch
+tsc index.ts -w
+
+tsconfig作成
+tsc --init
+tsc とか　tsc -w　でコンパイル
