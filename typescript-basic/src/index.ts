@@ -142,17 +142,17 @@ const anotherAdd: (n1: number, n2: number) => number = add;
 // };
 // ↑左右にどちらか型指定があれば大丈夫
 
-const doubleNumber = number => number * 2;
-
+// const doubleNumber = number => number * 2;
+// ↓
 // const doubleNumber2 = (number: number): number => number * 2;
-// const doubleNumber3: (num: number) => number = num => num * 2;
+const doubleNumber3: (num: number) => number = num => num * 2;
 // ↑下の方が良さそう
 
 
 // callback関数の型
 // => number を => void にすると型定義しても無視されるので注意する
 function doubleAndHandle(num: number, cb: (num: number) => number): void {
-    const doubleNum = cb(num * 2);
+    // const doubleNum = cb(num * 2);
     console.log(num * 2);
 }
 doubleAndHandle(21, doubleNum => {
