@@ -97,7 +97,7 @@
     // "useUnknownInCatchVariables": true,               /* 例外捕捉catch(e)のeをunknown型として扱う */
     // "alwaysStrict": true,                             /* "use strict"; を出すか */
     "noUnusedLocals": true,                           /* ローカル変数を使っていない時にエラーを出すか グローバルはエラーにしない（他で使う可能性があるため） */
-    // "noUnusedParameters": true,                       /* 上記のパラメータ版 */
+    "noUnusedParameters": true,                       /* 上記のパラメータ版 */
     // "exactOptionalPropertyTypes": true,               /* Interpret optional property types as written, rather than adding 'undefined'. */
     // "noImplicitReturns": true,                        /* 暗黙的なreturnにエラーを出す */
     // "noFallthroughCasesInSwitch": true,               /* switch文の時に使える感じ */
