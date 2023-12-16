@@ -1,7 +1,7 @@
 // import { Foodsable } from "./interfaces.js";    // 1.デフォルト
 // import { Foodsable as FoodListable } from "./interfaces.js";    // 2.名前を変えられる
-import * as Interfaces from "./interfaces.js";    // 3.全部取得
-import { Food } from "./food.js";
+import * as Interfaces from "./interfaces";    // 3.全部取得
+import { Food } from "./food";
 
 // export class Foods implements FoodListable {
 export class Foods implements Interfaces.Foodsable { //名前付きエクスポート

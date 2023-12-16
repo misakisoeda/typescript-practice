@@ -1,5 +1,5 @@
-import Scoreable from "./interfaces.js";    // {}を使わない。さらに自由に書ける（defaultエクスポートだから）
-import { Foods } from "./foods.js";
+import Scoreable from "./interfaces";    // {}を使わない。さらに自由に書ける（defaultエクスポートだから）
+import { Foods } from "./foods";
 
 export class Score implements Scoreable {
     private static instance: Score; //
